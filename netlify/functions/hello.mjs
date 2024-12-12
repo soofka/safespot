@@ -10,7 +10,7 @@ export default async (req, context) => {
     await fs.writeFile(filePath, JSON.stringify(signups), { encoding: "utf8" });
     return new Response(signups);
   } catch (readingError) {
-    if (error.code && error.code === "ENOENT") {
+    if (readingError.code && readingError.code === "ENOENT") {
       try {
         await fs.writeFile(filePath, JSON.stringify(signups), {
           encoding: "utf8",

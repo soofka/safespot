@@ -65,3 +65,10 @@ function throwError(error) {
 function updateMain(content) {
   document.querySelector("main").innerHTML = content;
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelector("header").classList.add("slide-in-top");
+  document.querySelector("main").classList.add("slide-in-bottom");
+  document.querySelector("footer").classList.add("slide-in-bottom");
+  document.querySelector(".cover").remove();
+});

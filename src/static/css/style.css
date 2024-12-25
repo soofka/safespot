@@ -154,7 +154,7 @@ hr {
   width: 100%;
   margin: var(--gap-rel) 0;
   padding: 0;
-  border-color: var(--black-3);
+  border: 3px solid var(--blue-light);
 }
 img,
 picture {
@@ -175,6 +175,15 @@ img {
 }
 .center {
   text-align: center;
+}
+.cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  background: var(--white-1);
 }
 .wrapper {
   width: 100%;
@@ -348,11 +357,40 @@ section.full {
   min-height: 100vh;
 }
 footer {
-  color: var(--white-1);
-  background: var(--black-1);
+  background: var(--white-1);
 }
 
 /* helpers */
+.slide-in-top .wrapper {
+  opacity: 0;
+  transform: translateY(-100%);
+  animation: slideInTop var(--transition-duration) ease-out forwards;
+}
+@keyframes slideInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.slide-in-bottom .wrapper {
+  opacity: 0;
+  transform: translateY(100%);
+  animation: slideInBottom var(--transition-duration) ease-out forwards;
+}
+@keyframes slideInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .box {
   margin: 0;
   padding: calc(2 * var(--gap));

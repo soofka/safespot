@@ -1,1 +1,2 @@
-/netlify/functions/signups.json
+dist
+node_modules

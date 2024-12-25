@@ -20,6 +20,7 @@
 
   --white-0: #fefefe;
   --white-1: #ededed;
+  --white-1-5: #e0e0e0;
   --white-2: #cbcbcb;
   --white-3: #a9a9a9;
 
@@ -61,7 +62,6 @@ h1 {
   width: 100%;
   font-family: var(--font-fancy);
   text-align: center;
-  text-transform: uppercase;
   font-size: 4rem;
   margin: 0 0 2rem 0;
   padding: 0;
@@ -105,16 +105,9 @@ a:active {
   color: var(--black-2);
   text-decoration: underline 2px;
 }
-a.plain,
-a.plain:hover,
-a.plain:focus,
-a.plain:active,
-a.plain:visited {
-  color: var(--black-0);
-  text-decoration: none;
-}
 button,
 .button {
+  display: inline-block;
   cursor: pointer;
   font-family: var(--font-fancy);
   font-size: 1rem;
@@ -192,10 +185,14 @@ img {
 }
 .row {
   display: grid;
+  gap: var(--gap);
+  margin: var(--gap-rel) 0 0 0;
+  padding: 0;
 }
 .row .col {
   grid-column: span 6;
-  margin: var(--gap);
+  margin: 0;
+  padding: 0;
 }
 header {
   position: fixed;
@@ -260,22 +257,33 @@ header nav #menu {
   height: auto;
   max-height: 0;
   order: 1;
-  overflow: hidden;
+  overflow: scroll;
   transition: max-height var(--transition-duration) var(--transition-easing);
 }
 header nav:has(#controls #menu-toggle-state:checked) #menu {
-  max-height: 14rlh;
+  max-height: 90vh;
 }
 header nav #menu ul {
-  height: 100%;
+  display: flex;
   flex-flow: column nowrap;
-}
-header nav #menu ul li {
+  list-style: none;
   height: 100%;
+  margin: 0;
+  padding: 0;
   border-top: 1px solid var(--white-3);
 }
-header nav #menu ul li:last-of-type {
+header nav #menu ul li {
+  width: auto;
+  height: 100%;
+  margin: 0;
+  padding: 0;
   border-bottom: 1px solid var(--white-3);
+}
+header nav #menu ul ul li {
+  font-size: 0.85rem;
+  background: var(--white-1-5);
+  border-left: 1px solid var(--white-3);
+  border-right: 1px solid var(--white-3);
 }
 header nav #menu ul li a {
   display: flex;
@@ -283,6 +291,14 @@ header nav #menu ul li a {
   height: 100%;
   margin: 0;
   padding: var(--gap);
+  white-space: nowrap;
+}
+header nav #menu ul ul li a {
+  padding: calc(var(--gap) * 3 / 4);
+}
+header nav #menu ul ul li a:before {
+  content: "»";
+  margin-right: calc(var(--gap) * 3 / 4);
 }
 header nav #menu ul li a.active {
   color: var(--white-0);
@@ -299,9 +315,6 @@ main {
   margin: 0;
   padding: 0;
 }
-main section {
-  min-height: 100vh;
-}
 main section:first-of-type {
   margin-top: calc(1.5 * var(--gap-rel));
 }
@@ -316,7 +329,7 @@ section {
 section article {
   width: 100%;
   margin: 0;
-  padding: var(--gap-rel) 0;
+  padding: 0;
   display: flex;
   flex-flow: column nowrap;
 }
@@ -331,24 +344,15 @@ section.cover {
 section.cover .box {
   opacity: 0.95;
 }
+section.full {
+  min-height: 100vh;
+}
 footer {
   color: var(--white-1);
   background: var(--black-1);
 }
 
 /* helpers */
-.horizontal-list {
-  display: flex;
-  flex-flow: row nowrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.horizontal-list li {
-  width: auto;
-  margin: 0;
-  padding: 0;
-}
 .box {
   margin: 0;
   padding: calc(2 * var(--gap));
@@ -359,6 +363,12 @@ footer {
   color: var(--white-1);
   background: var(--black-3);
 }
+.gray-dark:visited,
+.gray-dark:hover,
+.gray-dark:focus,
+.gray-dark:active {
+  color: var(--white-1);
+}
 .gray-light {
   color: var(--black-1);
   background: var(--white-3);
@@ -367,12 +377,24 @@ footer {
   background: var(--blue-dark);
   color: var(--white-0);
 }
+.blue-dark:visited,
+.blue-dark:hover,
+.blue-dark:focus,
+.blue-dark:active {
+  color: var(--white-0);
+}
 .blue-light {
   background: var(--blue-light);
   color: var(--black-0);
 }
 .orange-dark {
   background: var(--orange-dark);
+  color: var(--white-0);
+}
+.orange-dark:visited,
+.orange-dark:hover,
+.orange-dark:focus,
+.orange-dark:active {
   color: var(--white-0);
 }
 .orange-light {
@@ -403,16 +425,31 @@ footer {
   header nav #menu {
     max-height: 100%;
     order: 0;
-    transition: none;
+    overflow: visible;
   }
-  header nav #menu ul {
+  header nav #menu > ul {
     flex-flow: row wrap;
-  }
-  header nav #menu ul li {
     border-top: none;
   }
-  header nav #menu ul li:last-of-type {
+  header nav #menu > ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    max-height: 0;
+    visibility: hidden;
+    transition: max-height var(--transition-duration) var(--transition-easing);
+  }
+  header nav #menu > ul > li {
+    position: relative;
     border-bottom: none;
+  }
+  header nav #menu > ul > li:hover ul {
+    max-height: 90vh;
+    visibility: visible;
+  }
+  header nav #menu > ul > li ul li:last-of-type {
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
   }
   .row {
     grid-template-columns: repeat(6, 1fr);

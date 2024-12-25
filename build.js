@@ -88,7 +88,7 @@ async function buildPages(pageFiles, pagesPath, distPath) {
         relPath,
         `${srcFilePathObject.name}.html`
       );
-      const distFilePath = path.join(distPath, distFileRelPath);
+      const distFilePath = path.join(distPath, "pages", distFileRelPath);
 
       let content = "";
       try {
@@ -116,10 +116,10 @@ async function buildPages(pageFiles, pagesPath, distPath) {
       const route = `${relPath ? "/" : ""}${relPath
         .split(path.sep)
         .join("/")}/${srcFilePathObject.name}`;
-      routes[route] = `/${distFileRelPath}`;
+      routes[route] = `/${path.join("pages", distFileRelPath)}`;
 
       if (distFileRelPath === "home.html") {
-        routes["/"] = `/${distFileRelPath}`;
+        routes["/"] = `/${path.join("pages", distFileRelPath)}`;
       }
     }
   }

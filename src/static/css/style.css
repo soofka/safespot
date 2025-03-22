@@ -365,7 +365,7 @@ section.full {
   min-height: 100vh;
 }
 footer {
-  background: var(--white-1);
+  background: var(--beige-0);
 }
 
 /* helpers */

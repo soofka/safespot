@@ -123,6 +123,7 @@ button:focus,
 button:active,
 .button:active {
   transform: scale(1.05);
+  transition-timing-function: ease-in-out;
 }
 small,
 label,

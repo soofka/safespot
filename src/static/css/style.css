@@ -529,15 +529,15 @@ footer {
 }
 @media (max-width: 767px) {
   .row {
-    display: block;
+    display: block !important;
   }
   .row .col {
-    width: 100%;
-    margin-bottom: var(--gap);
+    width: 100% !important;
+    margin-bottom: var(--gap) !important;
   }
   .button {
-    width: 100%;
-    padding: 10px;
+    width: 50% !important;
+    padding: 10px !important;
   }
   h2 {
     font-size: 1.5rem;
@@ -545,12 +545,10 @@ footer {
   h3 {
     font-size: 1.25rem;
   }
-
   .desktop {
-    display: none;
+    display: none !important;
   }
-
   .mobile {
-    display: block;
+    display: block !important;
   }
 }

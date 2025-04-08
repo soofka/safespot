@@ -159,6 +159,18 @@ hr {
   padding: 0;
   border: 3px solid var(--blue-light);
 }
+hr.orange {
+  width: 100%;
+  margin: var(--gap-rel) 0;
+  padding: 0;
+  border: 3px solid var(--orange-light);
+}
+hr.fancy {
+  width: 100%;
+  margin: var(--gap-rel) 0;
+  padding: 0;
+  background: linear-gradient(to right, var(--orange), var(--blue));
+}
 img,
 picture {
   display: block;

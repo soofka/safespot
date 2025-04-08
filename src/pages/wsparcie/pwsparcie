@@ -9,15 +9,15 @@
 
       <div class="row" style="display: flex; gap: var(--gap);">
         <div class="col" style="flex: 1;">
-          <a href="/o-nas/misja.html" class="button box orange-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; min-height: 130px;">Wolontariusze</a>
+          <a href="/wsparcie/wolontariat.html" class="button box orange-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; min-height: 130px;">Wolontariusze</a>
         </div>
 
       <div class="col" style="flex: 1;">
-        <a href="/o-nas/statut.html" class="button box orange-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; min-height: 130px;">Darczyńcy</a>
+        <a href="/wsparcie/zbiorki.html" class="button box orange-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; min-height: 130px;">Darczyńcy</a>
       </div>
 
       <div class="col" style="flex: 1;">
-        <a href="/o-nas/zarzad.html" class="button box orange-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; min-height: 130px;">Przekaż 1,5%</a>
+        <a href="/wsparcie/podatek.html" class="button box orange-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; min-height: 130px;">Przekaż 1,5%</a>
       </div>
      </div>
 

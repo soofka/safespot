@@ -15,15 +15,15 @@
 
       <div class="row" style="display: flex; gap: var(--gap);">
         <div class="col" style="flex: 1;">
-          <a href="/o-nas/misja.html" class="button box blue-light" style="display: flex; flex-direction: column; justify-content: space-between;">Dowiedz się więcej o naszej misji</a>
+          <a href="/o-nas/misja.html" class="button box blue-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; min-height: 120px;">Dowiedz się więcej o naszej misji</a>
         </div>
 
       <div class="col" style="flex: 1;">
-        <a href="/o-nas/statut.html" class="button box blue-light" style="display: flex; flex-direction: column; justify-content: space-between;">Sprawdź nasze dokumenty</a>
+        <a href="/o-nas/statut.html" class="button box blue-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; min-height: 120px;">Sprawdź nasze dokumenty</a>
       </div>
 
       <div class="col" style="flex: 1;">
-        <a href="/o-nas/zarzad.html" class="button box blue-light" style="display: flex; flex-direction: column; justify-content: space-between;">Kilka słów o zarządzie</a>
+        <a href="/o-nas/zarzad.html" class="button box blue-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; min-height: 120px;">Kilka słów o zarządzie</a>
       </div>
      </div>
 

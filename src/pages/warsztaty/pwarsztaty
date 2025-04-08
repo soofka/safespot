@@ -4,9 +4,43 @@
       <div class="row">
         <div class="col col-100">
           <h2>Warsztaty</h2>
-          <p>Nadal rozwijamy tą część strony. 
-            Po więcej informacji napisz do nas na safespot.fundacja@gmail.com 
-            lub napisz do nas na Instagramie @safespot_fundacja!</p>
+          <p>Część naszych inicjatyw to warsztaty – od tego zaczęliśmy. Jesteśmy z tego
+          dumni, a do dalszego działania pcha nas myśl o kolejnych uśmiechach, które możemy
+          wywoływać na twarzach młodzieży (oraz rodziców)! Poniżej znajdziesz więcej informacji.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-100">
+          <h3>Podsumowania zajęć</h3>
+          <p>
+            W tej sekcji pokazujemy osiągnięcia ważne dla Nas, jak i naszych uczestników.
+            Z czasem będzie się ona rozwijać, ale pamiętajmy – mały zespół nie może osiągnąć
+            w ciągu kilku miesięcy skali wielkich, znanych inicjatyw. Dlatego zapraszamy do 
+            naszej galerii zajęć. Mimo tego, że wydaje się mała, wpływamy na życia wielu osób, małych i dużych.
+          </p>
+          <div class="right">
+            <a
+              class="button box blue-light"
+              href="/warsztaty/podsumowania"
+              >Dowiedz się więcej &rarr;</a
+            >
+          </div>
+          <hr />
+          <h3>
+            Prowadzimy zapisy na zajęcia!
+          </h3>
+          <p>
+            Zainteresowało Cię to, co przedstawiamy na stronie, instagramie, czy w innym
+            miejscu? W tej części strony odnajdziesz wszelkie informacje odnośnie zapisów
+            na zajęcia. Rodzice, dzieci, usiądźcie razem i odwiedźcie Nas!
+          </p>
+          <div class="right">
+            <a
+              class="button box blue-light"
+              href="/warsztaty/zapisy"
+              >Dowiedz się więcej &rarr;</a
+            >
+          </div>
         </div>
       </div>
     </article>

@@ -27,6 +27,27 @@
       </div>
      </div>
 
+    <div class="row">
+        <div class="col col-100">
+          <p>Chcesz nas wspomóc, zadać pytanie, a może widzisz błąd gdzieś na stronie? Nie bój się – nie gryziemy. Kliknij pasujący przycisk poniżej!</p>
+        </div>
+    </div>
+
+    <div class="row" style="display: flex; gap: var(--gap);">
+      <div class="col" style="flex: 1;">
+        <a href="/pwsparcie.html"
+           class="button box blue-light"
+           style="display: flex; flex-direction: column; justify-content: center; text-align: center; min-height: 120px;">Wsparcie</a>
+      </div>
+
+      <div class="col" style="flex: 1;">
+        <a href="/kontakt.html"
+           class="button box blue-light"
+           style="display: flex; flex-direction: column; justify-content: center; text-align: center; min-height: 120px;">Kontakt</a>
+      </div>
+    </div>
+
+
     </article>
   </div>
 </section>

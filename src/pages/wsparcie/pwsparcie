@@ -21,7 +21,16 @@
       </div>
      </div>
 
-    <hr style="background-color: var(--orange-light);">
+    <hr class="orange">
+
+    <div class="row">
+        <div class="col col-100">
+          <h3>My pomagamy młodzieży, Ty możesz pomóc Nam!</h3>
+          <p>Cały czas staramy się rozwijać, aby objąć naszymi działaniami coraz większe grupy. Poszukujemy wsparcia w różnych formach i nie jesteśmy wybredni. Jeśli nie widzisz tu opcji pomocy, której chcesz udzielić, <a href="/kontakt.html">napisz do nas.</a> Nie możemy się doczekać, aby umożliwić innym wspomaganie celów zgodnych z naszymi, nawet, jeśli będą inne niż pierwotne wizje.</p>
+        </div>
+      </div>
+
+    <hr class="fancy">
 
     <div class="row">
         <div class="col col-100">

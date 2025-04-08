@@ -21,8 +21,6 @@
       </div>
      </div>
 
-    <hr class="orange">
-
     <div class="row">
         <div class="col col-100">
           <h3>My pomagamy młodzieży, Ty możesz pomóc Nam!</h3>
@@ -30,7 +28,7 @@
         </div>
       </div>
 
-    <hr class="fancy">
+    <hr />
 
     <div class="row">
         <div class="col col-100">

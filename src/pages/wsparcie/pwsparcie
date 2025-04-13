@@ -9,15 +9,15 @@
 
       <div class="row" style="display: flex; gap: var(--gap);">
         <div class="col" style="flex: 1;">
-          <a href="/pages/wsparcie/wolontariat.html" class="button box orange-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; max-height: 100px;">Wolontariusze</a>
+          <a href="pages/wsparcie/wolontariat" class="button box orange-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; max-height: 100px;">Wolontariusze</a>
         </div>
 
       <div class="col" style="flex: 1;">
-        <a href="/pages/wsparcie/zbiorki.html" class="button box orange-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; max-height: 100px;">Darczyńcy</a>
+        <a href="pages/wsparcie/zbiorki" class="button box orange-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; max-height: 100px;">Darczyńcy</a>
       </div>
 
       <div class="col" style="flex: 1;">
-        <a href="/pages/wsparcie/podatek.html" class="button box orange-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; max-height: 100px;">Przekaż 1,5%</a>
+        <a href="pages/wsparcie/podatek" class="button box orange-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; max-height: 100px;">Przekaż 1,5%</a>
       </div>
      </div>
 
@@ -52,7 +52,7 @@
           <div class="right">
             <a
               class="button box blue-light"
-              href="/wsparcie/poszukujemy-wolontariuszy-do-prowadzenia-zajec-artystycznych-w-markach.html"
+              href="pages/wsparcie/poszukujemy-wolontariuszy-do-prowadzenia-zajec-artystycznych-w-markach"
               >Dowiedz się więcej &rarr;</a
             >
         </div>

@@ -9,15 +9,15 @@
 
       <div class="row" style="display: flex; gap: var(--gap);">
         <div class="col" style="flex: 1;">
-          <a href="pages/wsparcie/wolontariat" class="button box orange-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; max-height: 100px;">Wolontariusze</a>
+          <a href="/wolontariat" class="button box orange-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; max-height: 100px;">Wolontariusze</a>
         </div>
 
       <div class="col" style="flex: 1;">
-        <a href="pages/wsparcie/zbiorki" class="button box orange-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; max-height: 100px;">Darczyńcy</a>
+        <a href="/zbiorki" class="button box orange-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; max-height: 100px;">Darczyńcy</a>
       </div>
 
       <div class="col" style="flex: 1;">
-        <a href="pages/wsparcie/podatek" class="button box orange-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; max-height: 100px;">Przekaż 1,5%</a>
+        <a href="/podatek" class="button box orange-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; max-height: 100px;">Przekaż 1,5%</a>
       </div>
      </div>
 

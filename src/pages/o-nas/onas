@@ -18,15 +18,15 @@
 
       <div class="row" style="display: flex; gap: var(--gap);">
         <div class="col" style="flex: 1;">
-          <a href="/o-nas/misja.html" class="button box blue-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; min-height: 150px;">Dowiedz się więcej o naszej misji</a>
+          <a href="/o-nas/misja" class="button box blue-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; min-height: 150px;">Dowiedz się więcej o naszej misji</a>
         </div>
 
       <div class="col" style="flex: 1;">
-        <a href="/o-nas/statut.html" class="button box blue-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; min-height: 150px;">Sprawdź nasze dokumenty</a>
+        <a href="/o-nas/statut" class="button box blue-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; min-height: 150px;">Sprawdź nasze dokumenty</a>
       </div>
 
       <div class="col" style="flex: 1;">
-        <a href="/o-nas/zarzad.html" class="button box blue-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; min-height: 150px;">Kilka słów o zarządzie</a>
+        <a href="/o-nas/zarzad" class="button box blue-light" style="display: flex; flex-direction: column; justify-content: space-between; justify-content: center; text-align: center; min-height: 150px;">Kilka słów o zarządzie</a>
       </div>
      </div>
 
@@ -38,13 +38,13 @@
 
     <div class="row" style="display: flex; gap: var(--gap);">
       <div class="col" style="flex: 1;">
-        <a href="/pwsparcie.html"
+        <a href="/pages/wsparcie/pwsparcie"
            class="button box orange-light"
            style="display: flex; flex-direction: column; justify-content: center; text-align: center; min-height: 120px;">Wsparcie</a>
       </div>
 
       <div class="col" style="flex: 1;">
-        <a href="/kontakt.html"
+        <a href="/pages/kontakt"
            class="button box orange-light"
            style="display: flex; flex-direction: column; justify-content: center; text-align: center; min-height: 120px;">Kontakt</a>
       </div>

@@ -21,7 +21,7 @@
           <div class="right">
             <a
               class="button box blue-light"
-              href="pages/warsztaty/podsumowania"
+              href="/podsumowania"
               >Dowiedz się więcej &rarr;</a
             >
           </div>
@@ -37,7 +37,7 @@
           <div class="right">
             <a
               class="button box blue-light"
-              href="pages/warsztaty/zapisy"
+              href="/zapisy"
               >Dowiedz się więcej &rarr;</a
             >
           </div>

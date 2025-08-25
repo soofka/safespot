@@ -1,0 +1,38 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TS2JSL3DSJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TS2JSL3DSJ');
+</script>
+<section class="full">
+  <div class="wrapper">
+    <article>
+      <div class="row">
+        <div class="col col-100">
+          <h2>Misja</h2>
+          <div style="padding-bottom: 40px;">
+          <p>Każdego dnia młodzi ludzie mierzą się z ogromną presją, wyzwaniami i niepewnością, 
+            które mogą prowadzić do kryzysów emocjonalnych i trudności w codziennym funkcjonowaniu. 
+            W dzisiejszym, szybko zmieniającym się świecie, pełnym oczekiwań i presji społecznej, 
+            wiele osób czuje się osamotnionych i zagubionych.</p>
+          <p>Fundacja Safe Spot  powstała z myślą o tym, by stać się bezpieczną przestrzenią dla młodych ludzi
+            – miejscem, w którym mogą znaleźć zrozumienie, wsparcie i realną pomoc. Naszą misją jest nie tylko
+            udzielanie pomocy w najtrudniejszych momentach, ale także wzmacnianie odporności psychicznej, rozwijanie
+            umiejętności radzenia sobie ze stresem oraz budowanie fundamentów zdrowego, pełnego satysfakcji życia.</p>
+          <p>Wierzymy, że każdy młody człowiek zasługuje na szansę, by rozwinąć swoje skrzydła i odkryć swój potencjał. 
+            Dlatego też, chcemy zaoferować Wam wsparcie psychologiczne, warsztaty artystyczne i rozwojowe oraz
+            edukacyjne programy, które pomogą w budowaniu pewności siebie i odkryciu nowych talentów. Chcemy, 
+            aby każdy, kto trafi do Safe Spot, poczuł się akceptowany, wysłuchany i zmotywowany do działania.</p>
+          <p>Naszym celem jest nie tylko krótkoterminowa pomoc, ale również długofalowa zmiana – budowanie społeczności 
+            opartej na empatii, wzajemnym wsparciu i akceptacji. Wierzymy, że silne emocjonalnie i świadome swoich 
+            wartości młode pokolenie to fundament lepszego jutra.</p>
+          </div>
+          <h3>Stwórzcie z nami swój Safe Spot!</h3>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>

@@ -419,6 +419,14 @@ footer {
   border-radius: var(--border-radius);
 }
 
+.banner-wrapper {
+  width: 100%;
+}
+
+.banner-wrapper .close-checkbox {
+  display: none;
+}
+
 #orange-banner {
   background: var(--orange-light);
   width: 100%;
@@ -444,31 +452,6 @@ footer {
   flex: 1;
 }
 
-#orange-banner .close-banner {
-  position: absolute;
-  top: 8px;
-  right: 12px;
-  cursor: pointer;
-  font-size: 1.5rem;
-  color: var(--black);
-  background: transparent;
-  border: none;
-}
-
-/* Hide the actual checkbox */
-#orange-banner .close-checkbox {
-  display: none;
-}
-
-#orange-banner .close-checkbox:checked + .banner-content,
-#orange-banner .close-checkbox:checked + .banner-content ~ .close-banner {
-  display: none;
-}
-
-#orange-banner .close-checkbox:checked {
-  display: none;
-}
-
 #orange-banner .cta-button {
   background: var(--orange);
   color: var(--white);
@@ -483,6 +466,21 @@ footer {
 #orange-banner .cta-button:hover {
   background: var(--orange-dark);
   transform: translateY(-2px);
+}
+
+#orange-banner .close-banner {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--black);
+  background: transparent;
+  border: none;
+}
+
+.banner-wrapper .close-checkbox:checked ~ #orange-banner {
+  display: none;
 }
 
 .gray-dark {

@@ -418,6 +418,45 @@ footer {
   border: none;
   border-radius: var(--border-radius);
 }
+#orange-banner {
+  background: var(--orange-light);
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  color: var(--black);
+  gap: 20px; /* spacing between text and button */
+}
+.banner-text {
+  max-width: 70%; /* keeps text from colliding with the button */
+}
+.banner-text h2 {
+  font-size: 1.8rem;
+  margin: 0 0 8px 0;
+  color: var(--black);
+}
+.banner-text p {
+  font-size: 1rem;
+  margin: 0;
+  color: var(--black);
+}
+.cta-button {
+  background: var(--orange);
+  color: var(--white);
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.2s ease;
+  white-space: nowrap; /* keeps the button from breaking into two lines */
+}
+.cta-button:hover {
+  background: var(--orange-dark);
+  transform: translateY(-2px);
+}
 .gray-dark {
   color: var(--white-1);
   background: var(--black-3);

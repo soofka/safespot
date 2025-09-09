@@ -421,11 +421,11 @@ footer {
 #orange-banner {
   background: var(--orange-light);
   width: 100%;
-  min-height: 150px;
+  min-height: 140px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 10px 40px;
   box-sizing: border-box;
   color: var(--black);
   gap: 20px; /* spacing between text and button */
@@ -446,7 +446,7 @@ footer {
 .cta-button {
   background: var(--orange);
   color: var(--white);
-  padding: 12px 24px;
+  padding: 12px 12px;
   text-decoration: none;
   font-weight: bold;
   border-radius: 8px;

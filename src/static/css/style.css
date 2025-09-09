@@ -460,9 +460,8 @@ footer {
   display: none;
 }
 
-/* When checkbox is checked, hide the banner */
-.close-checkbox:checked ~ .banner-content,
-.close-checkbox:checked ~ .close-banner {
+.close-checkbox:checked ~ #orange-banner,
+.close-checkbox:checked ~ #orange-banner * {
   display: none;
 }
 

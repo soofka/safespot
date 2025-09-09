@@ -431,7 +431,6 @@ footer {
   box-sizing: border-box;
   color: var(--black);
 }
-
 .banner-content {
   display: flex;
   justify-content: space-between;
@@ -439,11 +438,9 @@ footer {
   flex: 1;
   gap: 20px;
 }
-
 .banner-text {
   flex: 1;
 }
-
 .close-banner {
   position: absolute;
   top: 8px;
@@ -454,17 +451,17 @@ footer {
   background: transparent;
   border: none;
 }
-
 /* Hide the actual checkbox */
 .close-checkbox {
   display: none;
 }
-
 .close-checkbox:checked + .banner-content,
 .close-checkbox:checked + .banner-content ~ .close-banner {
   display: none;
 }
-
+.close-checkbox:checked {
+  display: none;
+}
 .cta-button {
   background: var(--orange);
   color: var(--white);
@@ -475,11 +472,11 @@ footer {
   white-space: nowrap;
   flex-shrink: 0;
 }
-
 .cta-button:hover {
   background: var(--orange-dark);
   transform: translateY(-2px);
 }
+
 .gray-dark {
   color: var(--white-1);
   background: var(--black-3);

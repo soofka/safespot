@@ -431,6 +431,9 @@ footer {
   background: var(--orange-light);
   width: 100%;
   min-height: 100px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   position: relative;
   display: flex;
   justify-content: space-between;

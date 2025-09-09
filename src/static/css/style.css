@@ -418,44 +418,90 @@ footer {
   border: none;
   border-radius: var(--border-radius);
 }
+<!-- HTML -->
+<div id="orange-banner">
+  <div class="banner-text">
+    <h2>Your Heading</h2>
+    <p>This is a short supporting paragraph that can run onto multiple lines.</p>
+  </div>
+  <a href="#" class="cta-button">Call to Action</a>
+  <button class="close-banner" aria-label="Close banner">&times;</button>
+</div>
+
+<!-- CSS -->
+<style>
+:root {
+  --orange-light: #ffd699;
+  --orange: #ff9900;
+  --orange-dark: #cc7a00;
+  --black: #000000;
+  --white: #ffffff;
+}
+
 #orange-banner {
   background: var(--orange-light);
   width: 100%;
-  min-height: 140px;
+  min-height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 40px;
+  padding: 16px 24px;
   box-sizing: border-box;
   color: var(--black);
-  gap: 20px; /* spacing between text and button */
+  gap: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  transition: max-height 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
+              padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
+              opacity 0.6s ease;
+  overflow: hidden;
+}
+
+#orange-banner.hidden {
+  max-height: 0;
+  padding: 0 24px;
+  opacity: 0;
 }
 .banner-text {
-  max-width: 70%; /* keeps text from colliding with the button */
+  max-width: 70%;
 }
 .banner-text h2 {
-  font-size: 1.8rem;
-  margin: 0 0 8px 0;
-  color: var(--black);
+  font-size: 1.6rem;
+  margin: 0 0 6px 0;
 }
 .banner-text p {
   font-size: 1rem;
   margin: 0;
-  color: var(--black);
 }
 .cta-button {
   background: var(--orange);
   color: var(--white);
-  padding: 12px 12px;
+  padding: 12px 24px;
   text-decoration: none;
   font-weight: bold;
   border-radius: 8px;
   transition: background 0.3s ease, transform 0.2s ease;
-  white-space: nowrap; /* keeps the button from breaking into two lines */
+  white-space: nowrap;
 }
 .cta-button:hover {
   background: var(--orange-dark);
   transform: translateY(-2px);
+}
+
+.close-banner {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--black);
+  padding: 0 8px;
+  transition: color 0.2s ease;
+}
+.close-banner:hover {
+  color: var(--orange-dark);
 }
 .gray-dark {
   color: var(--white-1);
@@ -602,21 +648,29 @@ footer {
   .mobile {
     display: block !important;
   }
-  #custom-banner {
-    flex-direction: column !important;   /* stack text + button */
-    align-items: stretch !important;     /* make children take full width */
-    text-align: center !important;       /* center text */
-    gap: 12px !important;
+  #orange-banner {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    gap: 12px;
+    position: sticky;
+    top: 0;
   }
 
   .banner-text {
-    max-width: 100% !important;
+    max-width: 100%;
   }
 
   .cta-button {
-    display: block !important;
-    width: 100% !important;              /* full-width button for mobile */
-    padding: 14px !important;
-    border-radius: 6px !important;
+    display: block;
+    width: 100%;
+    padding: 14px;
+    border-radius: 6px;
+  }
+
+  .close-banner {
+    position: absolute;
+    top: 8px;
+    right: 12px;
   }
 }

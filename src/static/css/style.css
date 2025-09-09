@@ -602,4 +602,14 @@ footer {
   .mobile {
     display: block !important;
   }
+    #custom-banner {
+    flex-direction: column; /* stack text above button */
+    align-items: flex-start; /* left-align contents */
+  }
+  .banner-text {
+    max-width: 100%;
+  }
+  .cta-button {
+    margin-top: 15px; /* spacing between text and button */
+  }
 }

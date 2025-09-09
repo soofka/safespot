@@ -603,20 +603,20 @@ footer {
     display: block !important;
   }
   #custom-banner {
-    flex-direction: column;   /* stack text + button */
-    align-items: stretch;     /* make children take full width */
-    text-align: center;       /* center text */
-    gap: 12px;
+    flex-direction: column !important;   /* stack text + button */
+    align-items: stretch !important;     /* make children take full width */
+    text-align: center !important;       /* center text */
+    gap: 12px !important;
   }
 
   .banner-text {
-    max-width: 100%;
+    max-width: 100% !important;
   }
 
   .cta-button {
-    display: block;
-    width: 100%;              /* full-width button for mobile */
-    padding: 14px;
-    border-radius: 6px;
+    display: block !important;
+    width: 100% !important;              /* full-width button for mobile */
+    padding: 14px !important;
+    border-radius: 6px !important;
   }
 }

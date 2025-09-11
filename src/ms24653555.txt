@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "safespotfundacja.pl",
+  "Id": "492caec2-0760-46d6-a319-d9146a2628d4"
+}

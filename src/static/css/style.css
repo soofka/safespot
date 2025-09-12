@@ -431,7 +431,7 @@ footer {
   background: var(--orange-light);
   width: 100%;
   min-height: 100px;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1000;
   display: flex;

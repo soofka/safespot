@@ -433,7 +433,7 @@ footer {
   min-height: 100px;
   position: sticky;
   top: 0;
-  position: absolute;
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;

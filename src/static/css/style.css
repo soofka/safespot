@@ -432,8 +432,7 @@ footer {
   width: 100%;
   min-height: 100px;
   position: relative;
-  top: 0;
-  z-index: 1000;
+  top: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;

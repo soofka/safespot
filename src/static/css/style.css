@@ -442,8 +442,6 @@ footer {
 
 .disclaimer img {
   max-height: 2.5em; /* scales relative to text size */
-  height: auto;
-  width: auto;
 }
 
 #orange-banner {
@@ -649,7 +647,7 @@ footer {
     display: block !important;
   }
     .disclaimer img {
-    height: 1.5em;  /* smaller for small screens */
+    max-height: 1.5em;  /* smaller for small screens */
   }
   #orange-banner {
     flex-direction: column;

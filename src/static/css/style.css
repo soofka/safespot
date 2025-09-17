@@ -428,7 +428,8 @@ footer {
 }
 
 .disclaimer {
-  background: #f5f5f5;
+  width: 100%;
+  background-color: #f5f5f5;
   border-bottom: 1px solid #ddd;
   display: flex;
   align-items: center;
@@ -440,7 +441,9 @@ footer {
 }
 
 .disclaimer img {
-  height: 24px;
+  max-height: 2.5em; /* scales relative to text size */
+  height: auto;
+  width: auto;
 }
 
 #orange-banner {

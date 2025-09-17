@@ -427,6 +427,22 @@ footer {
   display: none;
 }
 
+.disclaimer {
+  background: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px 16px;
+  font-size: 14px;
+  color: #444;
+}
+
+.disclaimer img {
+  height: 24px;
+}
+
 #orange-banner {
   background: var(--orange-light);
   width: 100%;

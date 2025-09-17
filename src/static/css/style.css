@@ -646,7 +646,7 @@ footer {
   .mobile {
     display: block !important;
   }
-    .disclaimer img {
+  .disclaimer img {
     max-height: 1.5em;  /* smaller for small screens */
   }
   #orange-banner {
